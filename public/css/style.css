@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ------------------------------------------------------ section header ------------------------------------------------------*/
+header {
+  background-color: black;
+  height: 150px;
+  top: 0;
+  width: 100%;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  header {
+    height: 120px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    position: relative;
+    height: auto;
+  }
+}
+
+#logo {
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  left: 40%;
+  width: 80%;
+}
+@media screen and (max-width: 768px) {
+  #logo {
+    display: block;
+    top: 0;
+    left: 40%;
+    width: 100%;
+  }
+}
+
+h1 > img {
+  width: 20%;
+}
+
+#nav-container {
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: black;
+}
+@media screen and (max-width: 768px) {
+  #nav-container {
+    position: relative;
+  }
+}
+
+.a-nav {
+  display: inline-block;
+  width: 24.5%;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  background-color: black;
+  border: black solid 2px;
+  transition: color ease-in-out 0.3s, background-color ease-in-out 0.3s, border ease-in-out 0.3s;
+}
+@media screen and (max-width: 768px) {
+  .a-nav {
+    display: block;
+    width: 100%;
+  }
+}
+.a-nav:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.a-nav > h2 {
+  vertical-align: top;
+  font-size: 20px;
+}
+
+/* ------------------------------------------------------ section presentation ------------------------------------------------------*/
+.presentation-img {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .presentation-img {
+    width: 100%;
+    display: block;
+  }
+}
+
+.presentation-texte {
+  display: inline-block;
+  width: 49.5%;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .presentation-texte {
+    display: block;
+    width: 100%;
+  }
+}
+
+#presentation-texte-1 {
+  float: right;
+}
+
+.presentation-titre {
+  display: inline-block;
+}
+
+#presentation-h3 {
+  text-align: center;
+}
+
+/* ------------------------------------------------------ section programmation ------------------------------------------------------*/
+.container-jour {
+  padding: 10px 5%;
+}
+
+.date-jour {
+  display: block;
+  text-align: center;
+}
+
+.affiche-container {
+  display: inline-block;
+  width: 33%;
+}
+
+.img-affiche-film {
+  width: 91%;
+  margin-left: 3%;
+}
+
+.film-heure {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
